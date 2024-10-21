@@ -25,3 +25,8 @@ Production:
 ```bash
 npm run start:prod
 ```
+
+## Implementation details
+
+1. Implemented endpoint `api/users`:
+   - **GET** `api/users` is used to get all persons
