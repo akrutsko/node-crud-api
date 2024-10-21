@@ -14,10 +14,13 @@ export default tseslint.config({
     },
   },
   extends: [eslint.configs.recommended, ...tseslint.configs.recommended],
-  rules: {
-    'no-console': 'warn',
-    '@typescript-eslint/consistent-type-imports': 'error',
-    '@typescript-eslint/no-import-type-side-effects': 'error',
-  },
+  {
+    rules: {
+      'no-console': 'warn',
+      '@typescript-eslint/consistent-type-imports': 'error',
+      '@typescript-eslint/no-import-type-side-effects': 'error',
+      'no-fallthrough': 'off',
+    },
+  }
   ...prettierPluginRecommended,
 });
