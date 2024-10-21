@@ -1,15 +1,27 @@
-# 🚀 Welcome to your new awesome project!
+# Simple CRUD API
 
-This project has been created using **webpack-cli**, you can now run
+## Description
 
+Simple CRUD API using in-memory database underneath.
+
+## Installation
+
+```bash
+git clone git@github.com:akrutsko/node-crud-api.git
+cd node-crud-api
+npm i
 ```
-npm run build
+
+## Start the app
+
+Development:
+
+```bash
+npm run start:dev
 ```
 
-or
+Production:
 
+```bash
+npm run start:prod
 ```
-yarn build
-```
-
-to bundle your application
